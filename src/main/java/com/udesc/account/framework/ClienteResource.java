@@ -6,6 +6,7 @@ import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.PathParam;
 
+@Path("/clientes")
 public class ClienteResource {
 
     private final GetCliente getCliente;
